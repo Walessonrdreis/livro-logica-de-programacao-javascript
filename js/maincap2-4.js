@@ -2,7 +2,7 @@ function calcularPreco(){
     //cria referência aos elementos da página
     var inQuilo = document.getElementById("inQuilo");
     var inConsumo = document.getElementById("inConsumo");
-    var outValore = document.getElementById("outValore");
+    var outValor = document.getElementById("outValor");
 
     //obtêm conteúdo dos campos de entrada para
     var quilo = Number.parseInt(inQuilo.value);
@@ -10,7 +10,7 @@ function calcularPreco(){
     //calcula valor a ser pago
     var valor = (quilo/1000)*consumo;
     //altera conteúdo da linha de resposta
-    outValor. textContent = "Valor a pagar R$: " + valor.toFixed(2);
+    outValor.textContent = "Valor a pagar R$: " + valor.toFixed(2);
 }
 //cria referencia ao elemento btCalcular
 var btCalcular = document.getElementById("btCalcular");

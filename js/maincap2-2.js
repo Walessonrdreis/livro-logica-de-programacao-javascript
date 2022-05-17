@@ -3,7 +3,7 @@ function converterDuracao() {
 var inTitulo = document.getElementById("inTitulo");
 var inDuracao = document.getElementById("inDuracao");
 var outTitulo = document.getElementById("outTitulo");
-var outResponsive = document.getElementById("outResponsive");
+var outResposta = document.getElementById("outResposta");
 
 //obtém conteúdos dos campos de entrada 
 var titulo = inTitulo.value;
